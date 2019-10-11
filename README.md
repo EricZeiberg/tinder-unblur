@@ -8,8 +8,8 @@
 * Click on a thumbnail to enlargen it
 
 ### Installing
-* Download the latest zip release of this project
-* Extract the zip file to a permanent path (Chrome will need to load it every time it restarts).
+* Download [the latest zip release of this project](https://github.com/ylwsnw/tinder-unblur/releases/)
+* Extract [the zip file](https://github.com/ylwsnw/tinder-unblur/releases/download/1.0/Tinder_Unblur.zip) to a permanent path (Chrome will need to load it every time it restarts).
 * Open Chrome and go to chrome://extensions/ and check the box for Developer mode in the top right.
 * Click the *"Load unpacked extension"* button and select the unzipped folder to install it.
 
