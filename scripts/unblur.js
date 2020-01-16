@@ -88,6 +88,7 @@ function handleMutation(mutation) {
                 childs = node.childNodes;
                 node.removeChild(childs[1]);
                 childs[0].style.backgroundImage = childs[0].style.backgroundImage.replace("84x106", "640x800");
+                childs[0].style.backgroundImage = childs[0].style.backgroundImage.replace("84x84", "640x640");
                 thumbnailImage = childs[0].style.cssText.match(THUMBNAIL_IMAGE_URL_REGEX)[0];
                 childs[0].className = childs[0].className.replace(BLUR_REGEX,"");
                 console.log(TINDER_UNBLUR_LOG_TAG, "unblured a thumbnail:",thumbnailImage);
